@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.urdad</groupId>
+		<artifactId>services</artifactId>
+		<version>1.0.2-SNAPSHOT</version>
+	</parent>
+
+	<groupId>org.urdad.services</groupId>
+	<artifactId>services-mock</artifactId>
+	<version>1.0.2-SNAPSHOT</version>
+
+	<name>URDAD - Services - Mocking</name>
+	<description>
+		FIXME: Complete...
+	</description>
+
+	<dependencies>
+
+		<!-- URDAD Services API -->
+		<dependency>
+			<groupId>org.urdad.services</groupId>
+			<artifactId>services-api</artifactId>
+			<version>1.0.2-SNAPSHOT</version>
+		</dependency>
+
+		<!-- URDAD Services Utilities -->
+		<dependency>
+			<groupId>org.urdad.services</groupId>
+			<artifactId>services-utilities</artifactId>
+			<version>1.0.2-SNAPSHOT</version>
+		</dependency>
+
+		<!-- Java EE API -->
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+		</dependency>
+
+		<!-- AspectJ -->
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjrt</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjtools</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+		</dependency>
+
+	</dependencies>
+
+</project>
